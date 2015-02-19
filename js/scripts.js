@@ -193,9 +193,9 @@ jQuery(document).ready(function($) {
     map = new GMaps({
         position: "TOP_CENTER",
         el: '#map',
-        lat: 23.790223,
-        lng: 90.414036,
-        zoom: 13,
+        lat: 37.7833,
+        lng: -122.4167,
+        zoom: 10,
         zoomControl: true,
         zoomControlOpt: {
             style: 'SMALL',
@@ -206,11 +206,11 @@ jQuery(document).ready(function($) {
     });
     // add address markers
     map.addMarker({
-        lat: 23.790223,
-        lng: 90.414036,
+        lat: 37.7833,
+        lng: -122.4167,
         title: 'Codetic',
         infoWindow: {
-            content: '<p> Mirpur , Dhaka</p>'
+            content: '<p> San Francisco , CA , United States</p>'
         }
     });
 
