@@ -1,9 +1,9 @@
 // Preloader
 
   $(window).load(function(){
-        $('.loader').fadeOut();    
-        $('#preloader').delay(350).fadeOut('slow');    
-        $('body').delay(350);   
+        $('.loader').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350);
 
     });
 
@@ -94,7 +94,7 @@ jQuery(document).ready(function($) {
         zoom: {
             enabled: true,
             duration: 300, // duration of the effect, in milliseconds
-            easing: 'ease-in-out' // CSS transition easing function 
+            easing: 'ease-in-out' // CSS transition easing function
         }
     });
 
@@ -129,45 +129,45 @@ jQuery(document).ready(function($) {
     };
     var data = {
         html_css: [{
-            value: 95,
-            color: "#404148"
-        }, {
-            value: 5,
-            color: "#fff"
-        }],
-        sass: [{
-            value: 90,
-            color: "#404148"
-        }, {
-            value: 10,
-            color: "#fff"
-        }],
-        jquery: [{
-            value: 90,
-            color: "#404148"
-        }, {
-            value: 10,
-            color: "#fff"
-        }],
-        rails: [{
-            value: 60,
-            color: "#404148"
-        }, {
-            value: 40,
-            color: "#fff"
-        }],
-        backbone: [{
-            value: 50,
-            color: "#404148"
-        }, {
-            value: 50,
-            color: "#fff"
-        }],
-        photoshop: [{
             value: 75,
             color: "#404148"
         }, {
             value: 25,
+            color: "#fff"
+        }],
+        sass: [{
+            value: 75,
+            color: "#404148"
+        }, {
+            value: 25,
+            color: "#fff"
+        }],
+        jquery: [{
+            value: 55,
+            color: "#404148"
+        }, {
+            value: 45,
+            color: "#fff"
+        }],
+        rails: [{
+            value: 85,
+            color: "#404148"
+        }, {
+            value: 15,
+            color: "#fff"
+        }],
+        backbone: [{
+            value: 65,
+            color: "#404148"
+        }, {
+            value: 35,
+            color: "#fff"
+        }],
+        photoshop: [{
+            value: 50,
+            color: "#404148"
+        }, {
+            value: 50,
             color: "#fff"
         }]
     };
@@ -297,6 +297,3 @@ jQuery(document).ready(function($) {
         });
     };
 })(jQuery);
-
-
-
